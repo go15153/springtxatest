@@ -20,7 +20,7 @@ public class BController {
 //	}
 	@Autowired
 	private SqlSession sqlSession;
-	
+//	
 	
 	@RequestMapping("/list")
 	public String list(HttpServletRequest request,Model model) {
